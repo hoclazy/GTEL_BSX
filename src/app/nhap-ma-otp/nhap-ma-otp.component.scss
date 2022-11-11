@@ -1,0 +1,102 @@
+.bgQuenMatKhauChonPTXT {
+    background-image: url(/assets/nhapmaOTP.png);
+    position: absolute;
+    background-size: cover;
+    width: 796px;
+    height: 368px;
+    // background: linear-gradient(92.17deg, #0C5531 20.41%, #008242 112.49%);
+    // border-radius: 24px;
+}
+
+.quenMK {
+
+    margin-top: 15px;
+    // font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 300%;
+
+    text-align: center;
+
+    /* Primary/1 */
+
+    background: linear-gradient(95.52deg, #FFFBE6 8.49%, #FEC20A 32.27%, #FFFBE6 54.99%, #FEEB51 66.36%, #FFFBE6 85.25%, #FFD328 94.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+
+}
+
+.styleChonPTXT {
+    margin-top: -15px;
+    color: #FFFFFF;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.styleChuChonPTXT {
+    font-size: 100%;
+    // display: flex;
+    // justify-content: center;
+    text-align: center;
+}
+
+.styleRadio {
+    width: 5%;
+    height: 23px;
+
+}
+
+.rowEmailOrSDT {
+    font-size: 175%;
+    margin-top: 2.5%;
+    justify-content: center;
+    text-align: center;
+}
+
+.rowHeThongGuiMail {
+    font-size: 150%;
+    margin-top: 3%;
+    justify-content: center;
+    text-align: center;
+}
+
+.inputsubmit {
+    text-align: center;
+    margin-bottom: 5%;
+    border-radius: 2px;
+
+}
+
+.borderInput {
+    border: 1px solid #07971E;
+    border-radius: 12px;
+    text-align: center;
+    width: 49%;
+    height: 48px;
+    background: rgba(11, 20, 13, 0);
+    font-size: 120%;
+    --placeHolder-color: #33ED93 !important;
+    // --placeHolder-text-alight: left;
+}
+
+::-webkit-input-placeholder {
+    color: #33ED93
+}
+
+.borderInputSubmitAndSetWidth {
+    border: 0px;
+    border-radius: 15px;
+    width: 49.999999%;
+    height: 48px;
+    margin-top: -6%;
+    font-size: 120%;
+    font-weight: bold;
+    background: linear-gradient(95.52deg, #FFFE9D 8.49%, #FFE667 30.81%, #FFFA94 53.75%, #FFE55C 69.96%, #FFFE9D 94.59%)
+}
+
+.row {
+    height: 2px;
+}

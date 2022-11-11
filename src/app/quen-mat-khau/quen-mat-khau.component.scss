@@ -1,0 +1,99 @@
+.bgQuenMatKhau {
+    background-image: url(/assets/quenmatkhau.png);
+    position: absolute;
+    background-size: cover;
+    width: 796px;
+    height: 270px;
+}
+
+.quenMK {
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 300%;
+    line-height: 90px;
+    /* identical to box height, or 117% */
+
+    text-align: center;
+
+    /* Primary/1 */
+
+    background: linear-gradient(95.52deg, #FFFBE6 8.49%, #FEC20A 32.27%, #FFFBE6 54.99%, #FEEB51 66.36%, #FFFBE6 85.25%, #FFD328 94.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+
+    // text-shadow: 3px 6px 4px rgba(0, 0, 0, 0.21), 1px 1px 4px rgba(0, 0, 0, 0.34);
+
+    // /* Inside auto layout */
+
+    // flex: none;
+    // order: 0;
+    // align-self: stretch;
+    // flex-grow: 0;
+    // z-index: 0;
+}
+
+.inputQuenMK {
+    text-align: center !important;
+    border-radius: 7px;
+
+}
+
+.borderInput {
+    border: 1px solid #07971E;
+    border-radius: 15px;
+    text-align: center;
+    width: 49.2%;
+    height: 42px;
+    background: rgba(11, 20, 13, 0);
+    font-size: 150%;
+}
+
+.borderInputSubmitAndSetWidth {
+    border: 0px;
+    border-radius: 15px;
+    width: 50.7%;
+    height: 42px;
+    margin-bottom: 7%;
+    font-size: 150%;
+    font-weight: bold;
+    background: linear-gradient(95.52deg, #FFFE9D 8.49%, #FFE667 30.81%, #FFFA94 53.75%, #FFE55C 69.96%, #FFFE9D 94.59%)
+}
+
+.inputsubmit {
+    text-align: center;
+    margin-bottom: 7%;
+    border-radius: 2px;
+
+}
+
+
+
+.styleChonPTXT {
+    font-size: 150%;
+    color: white;
+    margin-top: -60px;
+}
+
+.styleChuChonPTXT {
+    display: flex;
+    justify-content: center;
+}
+
+.styleRadio{
+    width: 5%;
+   
+}
+
+.row{
+    margin-top: 2%;
+    justify-content: center;
+    text-align: center;
+}
+
+::placeholder { /* chạy tốt trên Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #33ED93 !important;
+}
+

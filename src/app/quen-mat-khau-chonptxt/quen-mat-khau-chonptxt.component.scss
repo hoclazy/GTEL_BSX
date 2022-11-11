@@ -1,0 +1,91 @@
+.bgQuenMatKhauChonPTXT {
+    background-image: url(/assets/qmkchonptxt.png);
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    // background-position: top;
+    // width: 80%;
+    // height: 60%;
+    // background: linear-gradient(92.17deg, #0C5531 20.41%, #008242 112.49%);
+    // border-radius: 24px;
+    width: 796px;
+    height: 340px;
+    position: absolute;
+    background-size: cover;
+}
+
+.quenMK {
+
+    margin-top: 15px;
+    // font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 300%;
+    // line-height: 90px;
+
+    text-align: center;
+
+    /* Primary/1 */
+
+    background: linear-gradient(95.52deg, #FFFBE6 8.49%, #FEC20A 32.27%, #FFFBE6 54.99%, #FEEB51 66.36%, #FFFBE6 85.25%, #FFD328 94.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+
+}
+
+.styleChonPTXT { 
+    color: #FFFFFF;
+    // margin-top: 40px;
+}
+
+.styleChuChonPTXT {
+    // margin-top: 1%;
+    font-size: 130%;
+    display: flex;
+    justify-content: center;
+}
+
+.styleRadio{
+    // display: flex;
+    // flex-direction: row;
+    // align-items: flex-start;
+    // padding: 0%;
+    // gap: 38px;
+    width: 3%;
+    height: 17px;
+   
+}
+
+.rowEmailOrSDT{
+    font-size: 100%;
+    margin-top: 0%;
+    justify-content: center;
+    text-align: center;
+}
+
+.rowHeThongGuiMail{
+    font-size: 80%;
+    margin-top: 2%;
+    justify-content: center;
+    text-align: center;
+}
+
+.inputsubmit {
+    text-align: center;
+    margin-bottom: 1%;
+    border-radius: 2px;
+
+}
+
+.borderInputSubmitAndSetWidth {
+    border: 0px;
+    border-radius: 15px;
+    width: 50%;
+    height: 42px;
+    // margin-bottom: 7%;
+    font-size: 150%;
+    font-weight: bold;
+    background: linear-gradient(95.52deg, #FFFE9D 8.49%, #FFE667 30.81%, #FFFA94 53.75%, #FFE55C 69.96%, #FFFE9D 94.59%)
+}
+

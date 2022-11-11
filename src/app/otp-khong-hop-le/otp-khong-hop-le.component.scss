@@ -1,0 +1,97 @@
+.bgQuenMatKhauChonPTXT {
+    background-image: url(/assets/nhapmaOTP.jpg);
+    background-size: cover;
+
+    position: absolute;
+    width: 796px;
+    height: 436px;
+    left: 322px;
+    top: 294px;
+
+}
+
+.quenMK {
+
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 300%;
+    // line-height: 90px;
+
+    text-align: center;
+
+    /* Primary/1 */
+
+    background: linear-gradient(95.52deg, #FFFBE6 8.49%, #FEC20A 32.27%, #FFFBE6 54.99%, #FEEB51 66.36%, #FFFBE6 85.25%, #FFD328 94.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+
+}
+
+.styleChonPTXT {
+
+    color: white;
+    margin-top: 10px;
+}
+
+.styleChuChonPTXT {
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.styleRadio {
+    width: 5%;
+    height: 23px;
+
+}
+
+.rowEmailOrSDT {
+    font-size: 175%;
+    margin-top: 2.5%;
+    justify-content: center;
+    text-align: center;
+}
+
+.rowHeThongGuiMail {
+    font-size: 150%;
+    margin-top: 5%;
+    justify-content: center;
+    text-align: center;
+}
+
+.inputsubmit {
+    text-align: center;
+    margin-bottom: 7%;
+    border-radius: 2px;
+
+}
+
+.borderInput {
+    border-radius: 15px;
+    text-align: center;
+    width: 48%;
+    height: 36px;
+    background: rgba(11, 20, 13, 0);
+    font-size: 200%;
+    --placeHolder-color: #33ED93 !important;
+}
+
+::-webkit-input-placeholder {
+    color: #33ED93
+}
+
+.borderInputSubmitAndSetWidth {
+    border-radius: 15px;
+    width: 25.53%;
+    height: 70px;
+    margin-top: -13%;
+    font-size: 200%;
+    font-weight: bold;
+    background: linear-gradient(95.52deg, #FFFE9D 8.49%, #FFE667 30.81%, #FFFA94 53.75%, #FFE55C 69.96%, #FFFE9D 94.59%)
+}
+
+.messageError {}
